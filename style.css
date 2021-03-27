@@ -1,24 +1,51 @@
+/* CSS files add styling rules to your content */
+body {
+  background-color: #9FFFCB;
+  font-family: "Inconsolata", sans-serif;
+}
 h1 {
-	text-align: center;
+  color: black;
+  font-family: "Fjalla One", sans-serif;
+  background-color: #25A18E;
+  text-align: center;
+  border: groove #00A5CF 20px;
+  margin: 50px;
+}
+h2 {
+  background-color: #7AE582;
+  text-align: center;
 }
 
-a:hover{
-	background-color: rgba(244,88,204,.50);
-	/*background-color: #F89BE0;*/
+.artist {
+  width: 75%;
+  margin: 0 auto;
+  display: inline-block;
 }
 
-a{
-	background-color: #F458CC;
-	color: white;
-	text-align: none;
-	text-decoration: none;
-	padding: 15px;
-	border-radius: 10px;
+.artist img,
+.desc {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+.wrapper{
+	max-width: 1000px;
+	margin: 0 Auto;
+	background-color: #BADA55;
+  
+/*  turn on for the parent  */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.center_container {
-	text-align: center;
-}
-.center {
-	display: inline-block;
+.box{
+	background-color: #25A18E;
+  
+  text-align: center;
+  padding: 10px;
+  
+/*   width: 100px; */
+  flex-basis: 25%;
+  
 }
